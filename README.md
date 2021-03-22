@@ -1,4 +1,4 @@
-# Incremental_Kriging_Assisted_Evolutionary_Algorithm
+## Incremental_Kriging_Assisted_Evolutionary_Algorithm
 * This is the MATLAB implementation of the incremental Kriging-assisted evolutionary algorithm proposed in [1]. 
 * It uses an incremental learning method to update the Kriging model when new samples become available. Therefore, the surrogate modelling process is significantly faster than the traditional learning method.
 * I referred some MATLAB code in [2] when coding the incremental Kriging model.

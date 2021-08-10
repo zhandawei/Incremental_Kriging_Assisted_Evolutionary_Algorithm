@@ -11,7 +11,7 @@
 clearvars;clc;close all;
 % settings of the test problem
 fun_name = 'Ellipsoid';
-num_vari = 30;
+num_vari = 100;
 lower_bound = -5.12*ones(1,num_vari); 
 upper_bound = 5.12*ones(1,num_vari);
 % algorithm settings
@@ -24,7 +24,7 @@ F = 0.8;
 % number of current generation
 generation = 1;
 % generate random samples
-sample_x = lhsdesign(num_initial, num_vari,'criterion','maximin','iterations',1000).*(upper_bound - lower_bound) + lower_bound ;
+sample_x = lhsdesign(num_initial, num_vari,'criterion','maximin','iterations',1000).*(upper_bound - lower_bound) + lower_bound;
 sample_y = feval(fun_name, sample_x);
 evaluation =  size(sample_x,1);
 % best objectives in each generation

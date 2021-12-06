@@ -8,5 +8,5 @@
 
 
 ### Reference
-1. Dawei Zhan and Huanlai Xing. A Fast Kriging-Assisted Evolutionary Algorithm Based on Incremental Learning. IEEE Transactions on Evolutionary Computation, 2021, doi: 10.1109/TEVC.2021.3067015.
+1. Dawei Zhan and Huanlai Xing. A Fast Kriging-Assisted Evolutionary Algorithm Based on Incremental Learning. IEEE Transactions on Evolutionary Computation, 2021, 25(5): 941-955.
 2. A. I. J. Forrester, A. Sobester and A. J. Keane. Engineering design via surrogate modelling: a practical guide, 2008, John Wiley & Sons.

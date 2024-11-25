@@ -11,14 +11,14 @@
 clearvars;clc;close all;
 % settings of the test problem
 fun_name = 'Ellipsoid';
-num_vari = 100;
-lower_bound = -5.12*ones(1,num_vari); 
-upper_bound = 5.12*ones(1,num_vari);
+num_vari = 10;
+lower_bound = -5*ones(1,num_vari); 
+upper_bound = 5*ones(1,num_vari);
 % algorithm settings
-num_initial = 100;
+num_initial = 20;
 max_evaluation = 1000;
 % DE settings
-NP = 50;
+NP = 20;
 CR = 0.8;
 F = 0.8;
 % number of current generation

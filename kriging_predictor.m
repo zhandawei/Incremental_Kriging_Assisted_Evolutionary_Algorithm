@@ -5,13 +5,8 @@ mu = model.mu;
 sigma2 = model.sigma2;
 L = model.L;
 % normalize data
-if ~isempty(lower_bound)
-    X = (sample_x - lower_bound)./(upper_bound - lower_bound);
-    x = (test_x - lower_bound)./(upper_bound- lower_bound);
-else
-    X = sample_x;
-    x = test_x;
-end
+X = (sample_x - lower_bound)./(upper_bound - lower_bound);
+x = (test_x - lower_bound)./(upper_bound- lower_bound);
 % initialize the prediction and variance
 one = ones(size(sample_x,1),1);
 % point-wise calculation
